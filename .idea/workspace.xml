@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2366d2e4-7c7a-44ab-9ef9-028c62807014" name="Default Changelist" comment="" />
+    <list default="true" id="2366d2e4-7c7a-44ab-9ef9-028c62807014" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/airpods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/alexa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/camera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/mouse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/playstation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/shop-store.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/componets/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/componets/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/componets/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/componets/Rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ptkx0hgRxetmJdgDUStmndZUVG" />
   <component name="ProjectViewState">
@@ -15,9 +56,56 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/data" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\sofia\projects\shop\backend\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\sofia\projects\shop\frontend\src\componets" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\sofia\projects\shop\frontend\src" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\sofia\projects\shop\frontend\public" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\sofia\projects\shop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.server">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -27,11 +115,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616010016124</updated>
-      <workItem from="1616010017162" duration="303000" />
+      <workItem from="1616010017162" duration="1636000" />
+      <workItem from="1616011684154" duration="4657000" />
+      <workItem from="1616095901960" duration="792000" />
+      <workItem from="1616170221813" duration="13484000" />
+      <workItem from="1616262742203" duration="8044000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1855" y="257" width="647" height="370" key="#ESLint" timestamp="1616012804275">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1855" y="257" width="647" height="370" key="#ESLint/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616012804275" />
+    <state x="1628" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616178212718">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1628" y="325" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616178212718" />
+    <state x="1562" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616262167718">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1562" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616262167718" />
+    <state x="1716" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616010572404">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1716" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616010572404" />
+    <state x="1766" y="275" key="FileChooserDialogImpl" timestamp="1616171262087">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1766" y="275" key="FileChooserDialogImpl/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616171262087" />
+    <state width="1261" height="279" key="GridCell.Tab.0.bottom" timestamp="1616269929141">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1261" height="279" key="GridCell.Tab.0.bottom/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616269929141" />
+    <state width="1261" height="279" key="GridCell.Tab.0.center" timestamp="1616269929141">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1261" height="279" key="GridCell.Tab.0.center/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616269929141" />
+    <state width="1261" height="279" key="GridCell.Tab.0.left" timestamp="1616269929141">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1261" height="279" key="GridCell.Tab.0.left/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616269929141" />
+    <state width="1261" height="279" key="GridCell.Tab.0.right" timestamp="1616269929141">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1261" height="279" key="GridCell.Tab.0.right/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616269929141" />
+    <state x="1487" y="165" key="SettingsEditor" timestamp="1616012484870">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1487" y="165" key="SettingsEditor/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616012484870" />
   </component>
 </project>
