@@ -19,6 +19,7 @@ const ProductPage = ({ match }) => {
     };
 
     fetchProduct();
+    console.log(match.params.id);
   }, [match]);
 
   return (
