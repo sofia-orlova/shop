@@ -8,6 +8,11 @@
       </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
@@ -20,7 +25,8 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:feature/work" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -140,7 +146,7 @@
       <workItem from="1622135730480" duration="3043000" />
       <workItem from="1622382020954" duration="10714000" />
       <workItem from="1622919400370" duration="5919000" />
-      <workItem from="1623089288897" duration="5325000" />
+      <workItem from="1623089288897" duration="6653000" />
     </task>
     <servers />
   </component>
@@ -158,7 +164,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="feature/work" />
                       </list>
                     </value>
                   </entry>
