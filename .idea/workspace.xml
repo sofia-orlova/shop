@@ -26,22 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2366d2e4-7c7a-44ab-9ef9-028c62807014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/middleware/errorMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/orderModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/orderModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/productModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/productModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/seeder.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/seeder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +143,8 @@
       <workItem from="1621509056179" duration="2495000" />
       <workItem from="1622135730480" duration="3043000" />
       <workItem from="1622382020954" duration="10714000" />
-      <workItem from="1622919400370" duration="4473000" />
+      <workItem from="1622919400370" duration="5919000" />
+      <workItem from="1623089288897" duration="2152000" />
     </task>
     <servers />
   </component>
@@ -202,10 +192,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1716" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616010572404" />
-    <state x="1766" y="275" key="FileChooserDialogImpl" timestamp="1622193520304">
+    <state x="1766" y="275" key="FileChooserDialogImpl" timestamp="1623014315759">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1766" y="275" key="FileChooserDialogImpl/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1622193520304" />
+    <state x="1766" y="275" key="FileChooserDialogImpl/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1623014315759" />
     <state width="1383" height="489" key="GridCell.Tab.0.bottom" timestamp="1622451462957">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
