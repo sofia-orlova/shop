@@ -32,7 +32,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2366d2e4-7c7a-44ab-9ef9-028c62807014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +150,8 @@
       <workItem from="1622135730480" duration="3043000" />
       <workItem from="1622382020954" duration="10714000" />
       <workItem from="1622919400370" duration="5919000" />
-      <workItem from="1623089288897" duration="7872000" />
+      <workItem from="1623089288897" duration="12148000" />
+      <workItem from="1623734431701" duration="5512000" />
     </task>
     <servers />
   </component>
@@ -222,9 +227,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1487" y="165" key="SettingsEditor/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1616705550313" />
-    <state x="1624" y="253" width="585" height="534" key="find.popup" timestamp="1622385013885">
+    <state x="863" y="247" width="585" height="534" key="find.popup" timestamp="1623134284353">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1624" y="253" width="585" height="534" key="find.popup/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1622385013885" />
+    <state x="863" y="247" width="585" height="534" key="find.popup/2560.0.1536.832/0.0.2560.1040@0.0.2560.1040" timestamp="1623134284353" />
   </component>
 </project>
