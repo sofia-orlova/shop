@@ -26,5 +26,7 @@ module.exports = {
     'no-return-assign': ['off'],
     'no-underscore-dangle': ['off'],
     'no-nested-ternary': ['off'],
+    'import/prefer-default-export': ['off'],
+    'react/prop-types': ['off'],
   },
 };
