@@ -5,7 +5,7 @@ import {
   Row, Col, ListGroup, Image, Form, Button, Card,
 } from 'react-bootstrap';
 import Message from '../componets/Message';
-import { addToCart, removeFromCart } from '../actions/cartActions';
+import { addToCart, removeFromCart } from '../redux/actions/cartActions';
 
 const CartPage = ({ match, location, history }) => {
   const productId = match.params.id;

@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import Rating from '../componets/Rating';
 import Loader from '../componets/Loader';
 import Message from '../componets/Message';
-import { listProductDetails } from '../actions/productActions';
+import { listProductDetails } from '../redux/actions/productActions';
 
 const ProductPage = ({ match }) => {
   const [qty, setQty] = useState(1);
