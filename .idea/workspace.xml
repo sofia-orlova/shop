@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02e26ddc-7809-4f62-937b-f8fb0df4162e" name="Default Changelist" comment="workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProfilePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controlers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controlers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/FormContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/FormContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Rating.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Rating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/cartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/cartActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/productActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/cartReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/cartReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/productReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/userReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/userReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +76,7 @@
       <workItem from="1629918728584" duration="3159000" />
       <workItem from="1630164217188" duration="8323000" />
       <workItem from="1630325689082" duration="135000" />
+      <workItem from="1630508053447" duration="6344000" />
     </task>
     <servers />
   </component>
