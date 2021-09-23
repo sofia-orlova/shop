@@ -89,7 +89,7 @@ const getUserProfile = asyncHandler(async (req, res) => {
     res.send('success')
 })
 
-// @desc       Get user profile
+// @desc       Update user profile
 // @route      PUT /api/users/profile
 // @access     Private
 
