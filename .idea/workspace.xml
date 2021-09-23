@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02e26ddc-7809-4f62-937b-f8fb0df4162e" name="Default Changelist" comment="workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controlers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controlers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/userReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/userReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,9 @@
       <workItem from="1629918728584" duration="3159000" />
       <workItem from="1630164217188" duration="8323000" />
       <workItem from="1630325689082" duration="135000" />
+      <workItem from="1630508053447" duration="7389000" />
+      <workItem from="1632131213426" duration="2452000" />
+      <workItem from="1632421758135" duration="4816000" />
     </task>
     <servers />
   </component>
