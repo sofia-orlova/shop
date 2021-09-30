@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02e26ddc-7809-4f62-937b-f8fb0df4162e" name="Default Changelist" comment="workspace.xml">
+    <list default="true" id="506a5ef9-3249-444d-a87a-7cfc2fef2d9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/controlers/orderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/PaymentPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/PlaceOrderPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/redux/actions/orderActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/orderReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controlers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controlers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProfilePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/userReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/userReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/CheckoutSteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/CheckoutSteps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ShippingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ShippingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/cartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/cartActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/cartReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/cartReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,43 +28,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1vCgkyiTP8PxEZs5s27yXSf8Znt" />
+  <component name="ProjectId" id="1yiC6nyd8jZ1iY3tsySfA9uraAK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02e26ddc-7809-4f62-937b-f8fb0df4162e" name="Default Changelist" comment="" />
-      <created>1626071633801</created>
+      <changelist id="506a5ef9-3249-444d-a87a-7cfc2fef2d9a" name="Changes" comment="" />
+      <created>1632724861367</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1626071633801</updated>
-      <workItem from="1626071637708" duration="165000" />
-      <workItem from="1627471019049" duration="898000" />
-      <workItem from="1627644505752" duration="829000" />
-      <workItem from="1629101767111" duration="612000" />
-      <workItem from="1629548248156" duration="1945000" />
-      <workItem from="1629705972128" duration="714000" />
-      <workItem from="1629835132419" duration="4600000" />
-      <workItem from="1629918728584" duration="3159000" />
-      <workItem from="1630164217188" duration="8323000" />
-      <workItem from="1630325689082" duration="135000" />
-      <workItem from="1630508053447" duration="7389000" />
-      <workItem from="1632131213426" duration="2452000" />
-      <workItem from="1632421758135" duration="4816000" />
+      <updated>1632724861367</updated>
+      <workItem from="1632724863361" duration="628000" />
+      <workItem from="1632769154509" duration="5535000" />
+      <workItem from="1633011960256" duration="7119000" />
     </task>
     <servers />
   </component>
