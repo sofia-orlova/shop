@@ -20,7 +20,7 @@ const ProductPage = ({ match }) => {
 
   useEffect(() => {
     dispatch(listProductDetails(match.params.id));
-    console.log(match.params.id);
+    // console.log(match.params.id);
   }, [dispatch, match]);
 
   return (
