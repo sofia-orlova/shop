@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Form, Button, Row, Col,
+  Form, Button, Row, Col, Table,
 } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import Message from '../componets/Message';
 import Loader from '../componets/Loader';
 import { getUserDetails, updateUserProfile } from '../redux/actions/userActions';
+import { listMyOrders } from '../redux/actions/orderActions';
 import { USER_UPDATE_PROFILE_RESET } from '../constants/userConstants';
 
 const ProfilePage = ({ history }) => {
@@ -31,11 +33,15 @@ const ProfilePage = ({ history }) => {
     } else if (!user || !user.name || success) {
       dispatch({ type: USER_UPDATE_PROFILE_RESET });
       dispatch(getUserDetails('profile'));
+      dispatch(listMyOrders());
     } else {
       setName(user.name);
       setEmail(user.email);
     }
   }, [dispatch, history, userInfo, user, success]);
+
+  const orderListMy = useSelector((state) => state.orderListMy);
+  const { loading: loadingOrders, error: errorOrders, orders } = orderListMy;
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -82,6 +88,34 @@ const ProfilePage = ({ history }) => {
       </Col>
       <Col md={9}>
         <h2>My Orders</h2>
+        {loadingOrders ? <Loader /> : errorOrders ? <Message variant="danger">{errorOrders}</Message> : (
+          <Table stripped bordered hover responsive className="table-sm">
+            <thead>
+              <th>ID</th>
+              <th>DATE</th>
+              <th>TOTAL</th>
+              <th>PAID</th>
+              <th>DELIVERED</th>
+              <th>btn</th>
+            </thead>
+            <tbody>
+              {orders.map((order) => (
+                <tr key={order._id}>
+                  <td>{order._id}</td>
+                  <td>{order.createdAt}</td>
+                  <td>{order.totalPrice}</td>
+                  <td>{order.isPaid ? order.paidAt.substring(0, 10) : (<i className="fas fa-times" style={{ color: 'red' }} />)}</td>
+                  <td>{order.isDelivered ? order.deliveredAt : (<i className="fas fa-times" style={{ color: 'red' }} />)}</td>
+                  <td>
+                    <LinkContainer to={`/order/${order._id}`}>
+                      <Button className="btn-sm" variant="light">Details</Button>
+                    </LinkContainer>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+        ) }
       </Col>
 
     </Row>
