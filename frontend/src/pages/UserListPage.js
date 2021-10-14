@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -9,8 +9,6 @@ import Message from '../componets/Message';
 import { listUsers } from '../redux/actions/userActions';
 
 const UserListPage = () => {
-  // const [qty, setQty] = useState(1);
-
   const dispatch = useDispatch();
 
   const userList = useSelector((state) => state.userList);
@@ -19,6 +17,10 @@ const UserListPage = () => {
   useEffect(() => {
     dispatch(listUsers());
   }, [dispatch]);
+
+  const deleteHandler = (id) => {
+    console.log(id);
+  };
 
   return (
 
@@ -48,8 +50,13 @@ const UserListPage = () => {
                 </td>
                 <td>
                   <LinkContainer to={`/user/${user._id}/edit`}>
-                    <Button variant="light" className="btn-sm"><i className="fas fa-edit" /></Button>
+                    <Button variant="light" className="btn-sm">
+                      <i className="fas fa-edit" />
+                    </Button>
                   </LinkContainer>
+                  <Button variant="danger" className="btn-sm" onClick={() => deleteHandler(user._id)}>
+                    <i className="fas fa-trash" />
+                  </Button>
                 </td>
               </tr>
             ))}
