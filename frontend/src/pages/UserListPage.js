@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 import Loader from '../componets/Loader';
 import Message from '../componets/Message';
-import { listUsers } from '../redux/actions/userActions';
+import { listUsers, deleteUser } from '../redux/actions/userActions';
 
 const UserListPage = ({ history }) => {
   const dispatch = useDispatch();
@@ -17,16 +17,21 @@ const UserListPage = ({ history }) => {
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
 
+  const userDelete = useSelector((state) => state.userDelete);
+  const { success: successDelete } = userDelete;
+
   useEffect(() => {
     if (userInfo && userInfo.isAdmin) {
       dispatch(listUsers());
     } else {
       history.push('/login');
     }
-  }, [dispatch, history]);
+  }, [dispatch, history, successDelete]);
 
   const deleteHandler = (id) => {
-    console.log(id);
+    if (window.confirm('Are you sure?')) {
+      dispatch(deleteUser(id));
+    }
   };
 
   return (
