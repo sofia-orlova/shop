@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="506a5ef9-3249-444d-a87a-7cfc2fef2d9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/UserEditPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/UserEditPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/UserListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/UserListPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/userReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/userReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/store.js" afterDir="false" />
