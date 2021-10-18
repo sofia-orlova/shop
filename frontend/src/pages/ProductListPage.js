@@ -6,13 +6,16 @@ import {
 } from 'react-bootstrap';
 import Loader from '../componets/Loader';
 import Message from '../componets/Message';
-import { listProducts } from '../redux/actions/productActions';
+import { listProducts, deleteProduct } from '../redux/actions/productActions';
 
 const ProductListPage = ({ history }) => {
   const dispatch = useDispatch();
 
   const productList = useSelector((state) => state.productList);
   const { loading, error, products } = productList;
+
+  const productDelete = useSelector((state) => state.productList);
+  const { loading: loadingDelete, error: errorDelete, success: successDelete } = productList;
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
@@ -23,11 +26,11 @@ const ProductListPage = ({ history }) => {
     } else {
       history.push('/login');
     }
-  }, [dispatch, history, userInfo]);
+  }, [dispatch, history, userInfo, successDelete]);
 
-  const deleteHandler = () => {
+  const deleteHandler = (id) => {
     if (window.confirm('Are you sure?')) {
-      // dispatch(deleteUser(id));
+      dispatch(deleteProduct(id));
     }
   };
 
@@ -50,6 +53,8 @@ const ProductListPage = ({ history }) => {
           </Button>
         </Col>
       </Row>
+      {loadingDelete && <Loader />}
+      {errorDelete && <Message variant="danger">{errorDelete}</Message>}
       {loading ? <Loader /> : error ? <Message variant="danger">{error}</Message> : (
         <Table striped bordered hover responsive className="table-sm">
           <thead>
