@@ -15,6 +15,9 @@ import PlaceOrderPage from './pages/PlaceOrderPage';
 import OrderPage from './pages/OrderPage';
 import UserListPage from './pages/UserListPage';
 import UserEditPage from './pages/UserEditPage';
+import ProductListPage from './pages/ProductListPage';
+import ProductEditPage from './pages/ProductEditPage';
+import OrderListPage from './pages/OrderListPage';
 
 function App() {
   return (
@@ -33,7 +36,10 @@ function App() {
           <Route path="/placeorder" component={PlaceOrderPage} />
           <Route path="/order/:id" component={OrderPage} />
           <Route path="/admin/userlist" component={UserListPage} />
+          <Route path="/admin/productlist" component={ProductListPage} />
+          <Route path="/admin/orderlist" component={OrderListPage} />
           <Route path="/admin/user/:id/edit" component={UserEditPage} />
+          <Route path="/admin/product/:id/edit" component={ProductEditPage} />
         </Container>
       </main>
       <Footer />
