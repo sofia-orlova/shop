@@ -6,7 +6,8 @@ import {
 } from 'react-bootstrap';
 import Loader from '../componets/Loader';
 import Message from '../componets/Message';
-import { listProducts, deleteProduct } from '../redux/actions/productActions';
+import { listProducts, deleteProduct, createProduct } from '../redux/actions/productActions';
+import { PRODUCT_CREATE_RESET } from '../constants/productConstants';
 
 const ProductListPage = ({ history }) => {
   const dispatch = useDispatch();
@@ -14,19 +15,30 @@ const ProductListPage = ({ history }) => {
   const productList = useSelector((state) => state.productList);
   const { loading, error, products } = productList;
 
-  const productDelete = useSelector((state) => state.productList);
-  const { loading: loadingDelete, error: errorDelete, success: successDelete } = productList;
+  const productDelete = useSelector((state) => state.productDelete);
+  const { loading: loadingDelete, error: errorDelete, success: successDelete } = productDelete;
+
+  const productCreate = useSelector((state) => state.productCreate);
+  const {
+    loading: loadingCreate, error: errorCreate, success: successCreate, product: createdProduct,
+  } = productCreate;
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
 
   useEffect(() => {
-    if (userInfo && userInfo.isAdmin) {
-      dispatch(listProducts());
-    } else {
+    dispatch({ type: PRODUCT_CREATE_RESET });
+
+    if (!userInfo.isAdmin) {
       history.push('/login');
     }
-  }, [dispatch, history, userInfo, successDelete]);
+
+    if (successCreate) {
+      history.push(`/admin/product${createdProduct._id}/edit`);
+    } else {
+      dispatch(listProducts());
+    }
+  }, [dispatch, history, userInfo, successDelete, successCreate, createdProduct]);
 
   const deleteHandler = (id) => {
     if (window.confirm('Are you sure?')) {
@@ -35,7 +47,7 @@ const ProductListPage = ({ history }) => {
   };
 
   const createProductHandler = () => {
-    // dispatch(deleteUser(id));
+    dispatch(createProduct());
   };
 
   return (
@@ -55,6 +67,8 @@ const ProductListPage = ({ history }) => {
       </Row>
       {loadingDelete && <Loader />}
       {errorDelete && <Message variant="danger">{errorDelete}</Message>}
+      {loadingCreate && <Loader />}
+      {errorCreate && <Message variant="danger">{errorCreate}</Message>}
       {loading ? <Loader /> : error ? <Message variant="danger">{error}</Message> : (
         <Table striped bordered hover responsive className="table-sm">
           <thead>

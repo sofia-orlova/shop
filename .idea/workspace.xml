@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="506a5ef9-3249-444d-a87a-7cfc2fef2d9a" name="Changes" comment="">
+    <list default="true" id="88c737c6-f791-4c6b-af57-9bde23ac322b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/routes/uploadRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/OrderListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProductEditPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controlers/orderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controlers/orderController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controlers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controlers/productController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/orderRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/OrderPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/OrderPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/orderActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/orderActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/productActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/orderReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/orderReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/productReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1yiC6nyd8jZ1iY3tsySfA9uraAK" />
+  <component name="ProjectId" id="20cwG0jUz8KX2pwSxm5CSk6H1Hi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,17 +51,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="506a5ef9-3249-444d-a87a-7cfc2fef2d9a" name="Changes" comment="" />
-      <created>1632724861367</created>
+      <changelist id="88c737c6-f791-4c6b-af57-9bde23ac322b" name="Changes" comment="" />
+      <created>1636357105417</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632724861367</updated>
-      <workItem from="1632724863361" duration="628000" />
-      <workItem from="1632769154509" duration="5535000" />
-      <workItem from="1633011960256" duration="7119000" />
-      <workItem from="1634129792910" duration="11595000" />
-      <workItem from="1634141646821" duration="717000" />
-      <workItem from="1634216251622" duration="12801000" />
+      <updated>1636357105417</updated>
+      <workItem from="1636357108948" duration="152000" />
+      <workItem from="1636974511170" duration="225000" />
+      <workItem from="1636975079306" duration="12147000" />
+      <workItem from="1637309269960" duration="2918000" />
+      <workItem from="1637831846774" duration="1680000" />
     </task>
     <servers />
   </component>
