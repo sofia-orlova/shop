@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c737c6-f791-4c6b-af57-9bde23ac322b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/routes/uploadRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/OrderListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProductEditPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/componets/Meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/componets/Paginate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/componets/ProductCarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/componets/SearchBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controlers/orderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controlers/orderController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controlers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controlers/productController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/orderRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/productModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/productModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/OrderListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/OrderListPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/OrderPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/OrderPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductEditPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductEditPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/orderActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/orderActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/productActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/orderReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/orderReducers.js" afterDir="false" />
@@ -42,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spa-presales-ui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -61,6 +68,8 @@
       <workItem from="1636975079306" duration="12147000" />
       <workItem from="1637309269960" duration="2918000" />
       <workItem from="1637831846774" duration="1680000" />
+      <workItem from="1638377832651" duration="7093000" />
+      <workItem from="1638700476471" duration="4171000" />
     </task>
     <servers />
   </component>
