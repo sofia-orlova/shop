@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88c737c6-f791-4c6b-af57-9bde23ac322b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/componets/Meta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/componets/Paginate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/componets/ProductCarousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/componets/SearchBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controlers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controlers/productController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/productModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/productModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/componets/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/componets/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/OrderListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/OrderListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/OrderPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/OrderPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductEditPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductEditPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/orderActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/orderActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/productActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/orderReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/orderReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/reducers/productReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="de84fb98-ad18-4147-840e-63d396f6e684" name="Changes" comment="remove .idea from gitignote" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,11 +39,34 @@
       <workItem from="1637309269960" duration="2918000" />
       <workItem from="1637831846774" duration="1680000" />
       <workItem from="1638377832651" duration="7093000" />
-      <workItem from="1638700476471" duration="4171000" />
+      <workItem from="1638700476471" duration="4523000" />
     </task>
+    <task id="LOCAL-00001" summary="remove .idea from gitignote">
+      <created>1638717948425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638717948425</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove .idea from gitignote" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove .idea from gitignote" />
   </component>
 </project>
